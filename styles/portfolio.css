@@ -189,10 +189,30 @@ main{
 .cv-button{
     text-align: center;
 }
-.footer-text{
+.footer-column{
     background-color: #FFF8F3;
     display: flex;
-    justify-content: space-evenly;
+    gap: 100px;
     width: 1600px;
     height: 780px;
+    padding: 130px 200px;
+} 
+.footer-text{
+    width: 50%;
+}
+.footer-description{
+    color: #474747;
+}
+.contact input[type="text"],.contact input[type="email"],textarea{
+    display: block;
+    margin-bottom: 25px;
+    color: #474747;
+    padding: 18px 35px;
+    width: 100%;
+}
+div >a{
+    margin-left: 25px;
+}
+.left{
+    text-align: left;
 }
